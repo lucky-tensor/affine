@@ -8,7 +8,7 @@ on:
     - cron: '15 7 * * *'  # 3:15 AM ET (7:15 UTC)
 
 jobs:
-  test:
+  docker-sanity-test:
     runs-on: ubuntu-latest
 
     steps:

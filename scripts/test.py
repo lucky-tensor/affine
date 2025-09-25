@@ -18,7 +18,7 @@ def main():
     os.chdir(project_root)
 
     # Default to running all tests with verbose output
-    args = ["pytest", "testsuite/", "-v"]
+    args = [sys.executable, "-m", "pytest", "testsuite/", "-v"]
 
     # Simple argument parsing
     if len(sys.argv) > 1:
