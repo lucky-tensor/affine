@@ -78,4 +78,10 @@ filterwarnings = [
 [dependency-groups]
 dev = [
     "ruff>=0.13.2",
+    "pytest>=8.0.0",
+    "pytest-xdist>=3.5.0",
+    "pytest-rich>=0.1.1",
+    "requests>=2.28.0",
+    "rich>=13.0.0",
+    "testcontainers>=3.7.0",
 ]
