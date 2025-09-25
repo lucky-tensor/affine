@@ -21,8 +21,7 @@ def check() -> int:
     """Check for unused dependencies in scripts/testsuite."""
     # Only check if our dev dependencies are being used properly
     return run_command(
-        ["deptry", "./scripts", "./testsuite", "--ignore", "DEP002"],
-        "dependency check"
+        ["deptry", "./scripts", "./testsuite", "--ignore", "DEP002"], "dependency check"
     )
 
 
